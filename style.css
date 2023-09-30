@@ -446,9 +446,33 @@ letter-spacing: -1.2px;
 }
 
 .offer-section h2 {
-    margin-top: 18px;
-    text-align: center;
+    -webkit-animation: pulse 3s infinite;
+    animation: pulse 3s infinite;
+  }
+  
+  @-webkit-keyframes pulse {
+    0%, 100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
 }
+
+
 
 .offer-section .text-xl {
     max-width: 728px;
