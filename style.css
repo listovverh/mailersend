@@ -383,11 +383,6 @@ line-height: 60px;
 letter-spacing: -1.2px;
 }
 
-footer .btn.primary:hover{
-width: 260px;
-height: auto;
-
-}
 
 .offer-section h6 {
     color: var(--black);
