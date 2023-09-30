@@ -446,6 +446,7 @@ letter-spacing: -1.2px;
 }
 
 .offer-section h2 {
+    text-align: center;
     -webkit-animation: pulse 3s infinite;
     animation: pulse 3s infinite;
   }
