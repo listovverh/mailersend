@@ -183,6 +183,7 @@ margin-top: 16px;
 margin-bottom: 0;
 }
 
+
 .hero-section .right {
     width: 552px;
 }
@@ -312,23 +313,23 @@ margin-bottom: 0;
 .product-card {
     display: flex;
     padding: 24px 12px;
-    width: 100%;
-    background-color: var(--gray100);
+    width: 100%; 
+    background-color: #F9FAFB;
     align-items: center;
     flex-direction: column;
     border-radius: 12px;
-    transition: background-color 1s ease;
+    transition: background-color 0.3s ease;
 }
 
 
 
-/* Im not sure that this effect is needed
+
 
 .product-card:hover {
-    background: radial-gradient(50% 50% at 50% 50%, #FFF 61.46%, #EDF2F9 100%);
+    background-color: var(--gray100);
     
 }
-*/
+
 
 .product-card img {
     width: 170px;
@@ -374,6 +375,7 @@ align-self: stretch;
 .offer-text {
 background: linear-gradient(180deg, #4D48D8 0%, #3C36A9 100%);
 background-clip: text;
+text-align: center;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-family: Inter;
@@ -390,6 +392,7 @@ letter-spacing: -1.2px;
 
 .offer-section h2 {
     margin-top: 18px;
+    text-align: center;
 }
 
 .offer-section .text-xl {
