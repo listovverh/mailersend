@@ -625,7 +625,7 @@ footer img {
 
 .wrapper{
     padding: 0 28px;
-    max-width: 320px;
+    max-width: 414px;
   }
 
   nav {
@@ -653,7 +653,7 @@ footer img {
         width: 100%;
     }
 
-    /* TEST 2 cards in a row for mobile
+   
 
     .books-section {
         width: 100%;
@@ -661,20 +661,25 @@ footer img {
    
     .books-row{
         display: flex;
+        flex-direction: column;
         align-items: stretch;
-        gap: 12px;
-        width: 320px;
+        gap: 24px;
+        
     }
 
     .books-section-last {
         width: 100%;
     }
 
+   
+
     .product-card{
         display: flex;
-        background: none;
+
         width: 100%;
     }
+
+      /* TEST 2 cards in a row for mobile
 
     .product-card h6{
         font-size: 10px;
