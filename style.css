@@ -656,6 +656,7 @@ footer img {
         display: flex;
         align-items: stretch;
         gap: 12px;
+        width: 100%;
     }
 
     .books-section-last {
@@ -668,18 +669,28 @@ footer img {
         width: 100%;
     }
 
-    .product-card h4,h6{
-        width: 100%;
+    .product-card h6{
+        font-size: 10px;
+        line-height: 15px;
     }
 
     .product-card h4{
-        font-size: 16px;
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .product-card img{
+        width: 100px;
+    }
+
+    .price{
+        font-size: 12px;
     }
 
     .product-card .btn.tretiary {
         height: 40px;
-        font-size: 16px;
-        padding: 8px 24px;
+        font-size: 14px;
+        padding: 8px 18px;
     }
 
     }
