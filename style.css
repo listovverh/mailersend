@@ -520,6 +520,9 @@ width: 976px;
 margin-top: 48px;
 }
 
+/* responsive design */
+
+
 @media(max-width: 1183px) {
 
 h1{
@@ -613,6 +616,9 @@ footer img {
 }
 
 
+
+
+
     @media(max-width: 639px) {
 
         
@@ -647,6 +653,7 @@ footer img {
         width: 100%;
     }
 
+    /* TEST mobile 2 cards in a row 
 
     .books-section {
         width: 100%;
@@ -656,7 +663,7 @@ footer img {
         display: flex;
         align-items: stretch;
         gap: 12px;
-        width: 100%;
+        width: 320px;
     }
 
     .books-section-last {
@@ -694,3 +701,5 @@ footer img {
     }
 
     }
+
+    */
