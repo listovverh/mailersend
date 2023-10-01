@@ -615,10 +615,11 @@ footer img {
 
     @media(max-width: 639px) {
 
+        
 
 .wrapper{
     padding: 0 28px;
-    max-width: 100%;
+    max-width: 320px;
   }
 
   nav {
@@ -646,11 +647,15 @@ footer img {
         width: 100%;
     }
 
+
+    .books-section {
+        width: 100%;
+    }
    
     .books-row{
         display: flex;
         align-items: stretch;
-        gap: 24px;
+        gap: 12px;
     }
 
     .books-section-last {
