@@ -150,6 +150,7 @@ background-clip: text;
     width: 100%;
     align-items: center;
     justify-content: space-between;
+
    
     
 }
@@ -187,6 +188,38 @@ margin-bottom: 0;
 .hero-section .right {
     width: 552px;
     align-items: flex-start;
+
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+     
     
 }
 
@@ -204,6 +237,8 @@ section {
 #ignas{
     scroll-margin-top: 128px;
     scroll-behavior: smooth;
+
+    
 }
 
 h2 {
@@ -399,7 +434,7 @@ margin-bottom: 0;
       
 
 .product-card h6 {
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .price {
